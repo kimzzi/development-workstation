@@ -95,6 +95,16 @@ Docker Desktop과 WSL2 Ubuntu를 연동한 후 Docker 명령어를 실행하였�
 - 컨테이너 내부 운영체제 정보 확인
 - 컨테이너 종료 및 Ubuntu 터미널 복귀
 
+### Docker 엔진 실행 상태 확인
+
+실행 명령어:
+
+```bash
+docker --version
+docker compose version
+docker info --format 'Server Version: {{.ServerVersion}}'
+docker ps
+
 ## 5. Docker 웹 서버 구축
 
 Nginx를 이용하여 Docker 웹 서버를 구축하였다.
