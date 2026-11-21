@@ -67,6 +67,22 @@ drwxr-xr-x 2 kkimzzi kkimzzi 4096 Nov 21 18:10 permission-folder
 - `644`: 소유자는 읽기·쓰기, 나머지는 읽기
 - `755`: 소유자는 읽기·쓰기·실행, 나머지는 읽기·실행
 
+### 3-4. 파일 이동 및 삭제 실습
+
+파일 생성, 이름 변경, 삭제 명령어를 실습하였다.
+
+실행 명령어:
+
+```bash
+touch move-test.txt
+ls -l move-test.txt
+
+mv move-test.txt renamed-test.txt
+ls -l renamed-test.txt
+
+rm renamed-test.txt
+ls -l renamed-test.txt
+
 ## 4. Docker 기본 실습
 
 Docker Desktop과 WSL2 Ubuntu를 연동한 후 Docker 명령어를 실행하였다.
